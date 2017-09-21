@@ -3,8 +3,11 @@ var cheerio = require('cheerio');
 var URL = require('url-parse');
 
 // var page = 'https://www.thisisanfield.com/2017/09/ben-woodburn-scores-sensational-winner-senior-wales-debut/';
-var page = 'https://www.dezeen.com/';
+// var page = 'https://www.dezeen.com/';
 // var page = 'https://arstechnica.com/';
+// var page = 'http://www.tmz.com/2017/09/20/kevin-hart-extortion-case-sex-tape-search-warrants/?adid=hero1/';
+// var page = 'https://www.nytimes.com/2017/09/01/us/politics/russia-election-hacking.html?_r=1';
+var page = 'http://nypost.com/2017/09/20/landon-collins-starts-twitter-feud-with-bully-lions-tight-end/';
 
 console.log("visiting => ", page);
 
