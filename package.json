@@ -1,25 +1,16 @@
 {
-  "name": "crawler",
-  "version": "1.0.0",
-  "description": "Web Crawler Project",
-  "main": "crawler.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/melmquist/crawler.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/melmquist/crawler/issues"
-  },
-  "homepage": "https://github.com/melmquist/crawler#readme",
+  "name": "crawler-react-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "request": "^2.81.0",
-    "url-parse": "^1.1.9"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
