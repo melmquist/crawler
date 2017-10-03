@@ -162,4 +162,24 @@ OTHER OPTIONS???
 trump lawyer 
 https://www.nytimes.com/2017/08/28/us/politics/trump-tower-putin-felix-sater.html?rref=collection%2Fbyline%2Fmatt-apuzzo&action=click&contentCollection=undefined&region=stream&module=stream_unit&version=latest&contentPlacement=1&pgtype=collection&_r=0
 
+
+
+
+
+---
+
+
+
+Web Crawler Project
+
+TDD:
+
+Successfully loads the front end react page.
+Messages to the user when invalid URL address is given.
+Makes an http request when a user submits a valid website.
+Successfully grabs data of links from that website.
+Processes that data into relative and absolute links.
+Creates an index of duplicates under one.
+Displays those links to the screen simply.
+Allows user to download csv of all links.
 */
